@@ -1,0 +1,388 @@
+@media (max-width: 1200px) {
+    .promo {
+        display: block;
+        background: url("../img/bg.jpg") center (center/cover) no-repeat;
+        background-size: 100% 100%;
+    }
+    .consultation {
+        display: none;
+        min-height: 680px;
+        display: flex;
+        position: relative;
+        background: url(../img/bg/bg2.png) center (center/cover) no-repeat;
+        background-size: 50% 50%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .promo {
+        display: block;
+        background: url("../img/bg.jpg") center (center/cover) no-repeat;
+        background-size: 100% 100%;
+        &__wrapper {
+            margin: 90px 20px 0 20px;
+        }
+    }
+    .header {
+        margin: 0 20px 0 20px;
+    }
+    .consultation {
+        background: url(../img/bg/bg2.png) center (center/cover) no-repeat;
+        background-size: 100% 100%;
+        padding: none;
+        display: block;
+        height: auto;
+        max-width: 100%;
+                &__descr {
+            margin-left: 40px;
+        }
+    }
+    .feed-form {
+        margin-left: 40px;
+    }
+    .title_left {
+        margin-left: 40px;
+        font-size: 30px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+
+        cursor: pointer;
+
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before {
+        opacity: 1;
+    }
+    .slick-dots li button:before {
+        font-family: 'slick';
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: black;
+    }
+
+    .catalog-item {
+        max-width: 276px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+        &__logo {
+            max-width: 150px;
+        }
+    }
+    .promo {
+        background-size: 100% 100%;
+        padding: none;
+        margin: none;
+        &__header {
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .advantages {
+        padding: 40px 0 80px 0;
+        &__item {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            max-width: 460px;
+        
+        }
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            vertical-align: middle;
+        }
+        
+        &__descr {
+            text-align: center;
+        }
+    }
+
+    .consultation {
+        background: url(../img/bg/bg2.png) center (center/cover) no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+        min-height: 668px;
+        position: relative;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    .carousel {
+        padding: 60px 0;
+        img {
+            max-width: 90%;
+            padding: 0 20px 0 27px;
+            
+        }
+    }
+    
+    .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before {
+        opacity: 1;
+    }
+    .slick-dots li button:before {
+        font-family: 'slick';
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: black;
+    }
+
+    .catalog {
+        &__tab {
+            max-width: 200px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .promo {
+        margin: none;
+        min-height: 400px;
+        padding: 20px 0 35px 0;
+        &__header {
+            font-size: 28px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 18px;
+            text-align: center;
+        }
+        &__icon {
+            display: none;
+        }
+    }
+    .header {
+        margin-top: 5px;
+        &__phone {
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &__official {
+            display: none;
+        }
+        &__logo {
+            max-width: 50%;
+        }
+    }
+    .button {
+        max-width: 120px;
+        max-height: 40px;
+        font-size: 10px;
+        &_main {
+            margin-top: 20px;
+            max-width: 180px;
+            max-height: 40px;
+            font-size: 12px;
+        }
+    }
+
+    .carousel {
+        img {
+            max-width: 67%;
+            padding: 0 20px 0 27px;
+            
+        }
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 0px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    .slick-dots li button:hover,
+    .slick-dots li button:focus {
+        outline: none;
+    }
+    .slick-dots li button:hover:before,
+    .slick-dots li button:focus:before {
+        opacity: 1;
+    }
+    .slick-dots li button:before {
+        font-family: 'slick';
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: black;
+    }
+
+    .catalog {
+        &__tab {
+            max-width: 150px;
+            font-size: 15px;
+        }
+        &__tabs {
+            margin-top: 40px;
+        }
+        div {
+            font-size: 14px;
+        }
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}
