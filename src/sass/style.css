@@ -146,6 +146,13 @@
   font-size: 12px;
 }
 
+.button:hover {
+  -webkit-box-shadow: 2px 2px 20px #C70101;
+          box-shadow: 2px 2px 20px #C70101;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
 .button_main {
   margin-top: 67px;
   width: 300px;
@@ -1013,6 +1020,17 @@
   border: 2px solid #FFFFFF;
   border-radius: 100%;
   margin: 0 15px;
+}
+
+.footer__social-item:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  -webkit-box-shadow: 1px 1px 20px white;
+          box-shadow: 1px 1px 20px white;
 }
 
 .footer__social-item img {

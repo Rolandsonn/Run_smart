@@ -40,6 +40,12 @@
         border: 2px solid #FFFFFF;
         border-radius: 100%;
         margin: 0 15px;
+        &:hover {
+            transform: scale(1.5);
+            
+            transition: transform .5s;
+            box-shadow: 1px 1px 20px white;
+        }
         img {
             height: 27px;
         }
